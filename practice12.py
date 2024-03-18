@@ -1,0 +1,14 @@
+tuple=("apple","gse","sfg","gfsg","sf","sdfg","grgw")
+li=["dfj","dlkf","pdk","ldkf","kdf","fkopd"]
+print(tuple[1])
+print(tuple[-1])
+print(tuple[::-1])
+print(tuple[0:3])
+print(tuple[:-3])
+print(tuple[2:])
+c=list(tuple)
+c[3]="ret"
+print(c)
+d=list(li)
+d[4]="jdojoej"
+print(d)
